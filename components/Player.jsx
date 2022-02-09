@@ -32,7 +32,6 @@ const Player = () => {
   const fetchCurrentSong = () => {
     if (!songInfo) {
       spotifyApi.getMyCurrentPlayingTrack().then(data => {
-        console.log("Now Playing: ", data.body.item);
         setCurrentTrackId(data.body?.item?.id);
 
         spotifyApi.getMyCurrentPlaybackState().then((data) => {
@@ -74,8 +73,8 @@ const Player = () => {
   );
 
   return (
-    <div className="h-24 bg-gradient-to-b from-black to-gray-900 text-white
-    grid grid-cols-3 text-xs md:text-base px-2 md:px-8"
+    <div className="h-24 bg-gradient-to-b from-[#090909] to-[#070707] text-white
+    grid grid-cols-3 text-xs md:text-base px-2 md:px-8 border-t-[0.1px] border-neutral-900"
     >
       <div className="flex items-center space-x-4">
         <img className="hidden md:inline h-10 w-10" src={songInfo?.album.images?.[0]?.url} alt="Song playing image" />
