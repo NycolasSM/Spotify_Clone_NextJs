@@ -5,7 +5,7 @@ export async function middleware(req) {
   // Token will exists if user is logged in
   const token = await getToken({ req, secret: process.env.JWT_SECRET });
 
-  const { pathname } = req.nextUrl
+  const { pathname } = req.nextUrl;
 
   // Allow therequests if th following is true
   // 1) its a request for next-auth session & provider fetching
@@ -16,7 +16,7 @@ export async function middleware(req) {
   }
 
   // Redirect them to login if they dont have token and are requesting aprotected route
-  if(!token && pathname !== '/login') {
+  if(!token && pathname !== "/login") {
     return NextResponse.redirect("/login");
   }
 }

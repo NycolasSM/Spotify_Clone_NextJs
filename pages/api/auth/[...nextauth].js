@@ -16,7 +16,6 @@ async function refreshAccessToken(token) {
       accessToken: refreshedToken.access_token,
       accessTokenExpires: Date.now + refreshToken.expires_in * 1000, // = 1 hour as 3600 seconds from api
       refreshToken: refreshedToken.refresh_token ?? token.refreshToken,
-
     };
 
   } catch (error) {
