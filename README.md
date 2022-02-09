@@ -2,7 +2,7 @@
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
 
-<img src="https://i.imgur.com/ITKiCHy.gif" alt="Preview">
+<img src="https://i.imgur.com/ITKiCHy.gif" height="300px" alt="Preview">
 
 > Um clone to aplicativo do spotify totalmente funcional e responsivo, feito com NextJS utilizando server side rendering (ssr)
 
@@ -61,4 +61,4 @@ Comandos:
 
 <h3>Agradecimentos</h3>
 <p>Sonny Sangha </p>
-<a>https://www.youtube.com/c/SonnySangha</a>
+<a href="https://www.youtube.com/c/SonnySangha">https://www.youtube.com/c/SonnySangha</a>
