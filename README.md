@@ -5,6 +5,8 @@
 <img src="https://i.imgur.com/ITKiCHy.gif" height="300px" alt="Preview">
 
 > Um clone to aplicativo do spotify totalmente funcional e responsivo, feito com NextJS utilizando server side rendering (ssr)
+<br>
+live preview: <a href="https://spotify-clone-next-js-ssr.vercel.app/">https://spotify-clone-next-js-ssr.vercel.app/</a>
 
 <br>
 <br>
